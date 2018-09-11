@@ -1,2 +1,60 @@
-
+body, html {
+    height: 100%;
+}
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+p {
+  font-size: 16px;
+  font-family:"roboto";
+  margin-left: 20px;
+}
+
+img {
+  width: 500px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+h2 {
+  margin-left: 20px;
+  font-family: "roboto";
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/2people.jpeg");
+
+/* Set a specific height */
+height: 70%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.h1-text {
+    text-align: center;
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+
+  .intro-text {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-family: "Roboto";
+  }
+
+  .kayaking {
+    width: 500px;
+  }
